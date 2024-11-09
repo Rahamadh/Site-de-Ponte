@@ -1,0 +1,49 @@
+header {
+  margin: 10px;
+  padding: 10px;
+}
+header div {
+  background-color: yellow;
+  height: 100px;
+  border-radius: 5px;
+}
+header nav div h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  float: right;
+  margin: 20px;
+  font-size: 30px;
+  padding: 0;
+  align-items: flex-end;
+  color: black;
+  border: 10 px solid;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  color: white;
+}
+
+.produtos img {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  margin: 20px;
+  padding: 0;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+.produtos {
+  display: flex;
+  justify-content: space-between;
+}
