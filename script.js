@@ -1,11 +1,18 @@
-const sobreLink = document.getElementById("sobre-link");
-const sobreSection = document.getElementById("sobre-nos");
-sobreLink.addEventListener("click", () => {
-  sobreSection.scrollIntoView({ behavior: "smooth" });
-});
+function scrollToSection(event, targetId) {
+  event.preventDefault();
+  window.scrollTo({ top: 100, behavior: "smooth" });
 
-const contatoLink = document.getElementById("contato-link");
-const contatoSection = document.getElementById("nosso-contato");
-contatoLink.addEventListener("click", () => {
-  contatoSection.scrollIntoView({ behavior: "smooth" });
+  /*
+  const targetElement = document.getElementById(targetId);
+  targetElement.scrollIntoView({
+    behavior: "smooth",
+  });
+
+  */
+}
+/*
+const sobreLink = document.getElementById("sobre-link");
+sobreLink.addEventListener("click", (event) => {
+  scrollToSection(event, "sobre-nos");
 });
+*/

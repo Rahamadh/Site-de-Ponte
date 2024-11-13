@@ -9,9 +9,16 @@
 * {
   font-family: "Lexend", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+  transition: all 1s;
+}
 
 body {
-  background-color: rgba(227, 222, 222, 0.841);
+  background-image: url(/imagems/fundo-branco-de-formas-abstratas_52683-55977.jpg);
+  background-image: radial-gradient(
+    circle rgb(255, 255, 255, 1) rgb(255, 0, 0, 1)
+  );
 }
 
 header {
@@ -77,9 +84,8 @@ header {
 .produtos {
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  margin: 20px;
-  margin-left: 100px;
+  padding-top: 10%;
+  margin: 0;
   width: 100%;
 }
 
@@ -115,18 +121,19 @@ main {
 
 .h2-produto {
   font-size: 50px;
-  margin-top: 150px;
-  padding-left: 10%;
+  margin-top: 20px;
+  padding-left: 20%;
   text-decoration: 10px underline rgb(244, 213, 13);
   text-align: justify;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .ponte h4 {
   font-size: 25px;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 12.9%;
   position: absolute;
-  margin-left: 30px;
+  margin-left: 55px;
 }
 
 .servicos {
@@ -141,20 +148,46 @@ main {
 .servicos p {
   color: white;
   width: 40%;
-  font-size: 20px;
-  margin-left: 40px;
+  font-size: 22px;
+  margin-left: 5%;
   font-weight: 30px;
-  padding: 2%;
+  padding: 0;
+  text-align: justify;
 }
 .servicos h3 {
   color: white;
-  margin: 0;
-  margin-left: 300px;
+  margin: 20px;
+  margin-left: 19%;
+  padding: 30px;
+  font-size: 40px;
 }
 .img-servicos {
   width: 900px;
   margin-left: 52%;
-  margin-top: -27%;
+  margin-top: -23.1%;
   position: absolute;
   padding: 0;
+}
+#sobre-hero {
+  background-color: rgb(255, 0, 0);
+  margin: 100%;
+  height: 100%;
+  width: 100px;
+
+  background-size: cover;
+  position: absolute;
+  z-index: 20;
+  margin-top: 10%;
+}
+
+.contato {
+  display: flex;
+  padding: 20px;
+  margin: 3%;
+  font-weight: 80px;
+  color: rgb(56, 56, 58);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+.contato img {
+  margin: 10px;
 }

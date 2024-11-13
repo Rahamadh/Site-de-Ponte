@@ -22,9 +22,17 @@
         <h1>AG Equipamentos Industriais.</h1>
         <nav>
           <div class="navegacao">
-            <a href="#" id="sobre-link">Sobre</a>
+            <a
+              href="#sobre-nos"
+              onclick="() => scrollToSection(event,sobre-nos)"
+              >Sobre</a
+            >
             <a href="#">Home</a>
-            <a href="#" id="contato-link">Contato</a>
+            <a
+              href="#nosso-contato"
+              onclick="()=>scrollToSection(event,nosso-contato)"
+              >Contato</a
+            >
             <a href="#">Produtos</a>
           </div>
         </nav>
@@ -75,27 +83,25 @@
         </div>
       </div>
       <div class="container-fluid servicos">
-        <div>
-          <h3>Sobre Nós</h3>
-          <div id="sobre-nos">
-            <p>
-              Com anos de experiência no mercado, somos referência em pontes
-              rolantes. Nossa equipe de engenheiros e técnicos especializados
-              desenvolve projetos personalizados, utilizando componentes de alta
-              qualidade e tecnologia de ponta.
-              <br /><br />
-              Projetos personalizados: Adaptados às suas necessidades e espaço
-              físico.
-              <br /><br />
-              Qualidade:
-              <br /><br />
-              * Materiais e componentes de primeira linha.
-              <br /><br />
-              * Assistência técnica: Manutenção e suporte técnico
-              especializados.
-            </p>
-          </div>
+        <h3>Sobre Nós</h3>
+        <div id="sobre-nos">
+          <p>
+            Com anos de experiência no mercado, somos referência em pontes
+            rolantes. Nossa equipe de engenheiros e técnicos especializados
+            desenvolve projetos personalizados, utilizando componentes de alta
+            qualidade e tecnologia de ponta.
+            <br />
+            Projetos personalizados: Adaptados às suas necessidades e espaço
+            físico.
+            <br />
+            Qualidade:
+            <br />
+            * Materiais e componentes de primeira linha.
+            <br />
+            * Assistência técnica: Manutenção e suporte técnico especializados.
+          </p>
         </div>
+
         <div class="row">
           <div class="col-4">
             <img class="img-servicos" src="/imagems/caldeireiro.jpg" alt="" />
@@ -106,6 +112,7 @@
     <footer>
       <div id="nosso-contato">
         <h2 class="contato">
+          <img src="/imagems/gif-ponte-rolante.gif" style="width: 10%" alt="" />
           Email: ponte@rolantes.com.br<br />
           Fone: 3425-0422<br />
           WhatsApp: 19999-9999<br />
